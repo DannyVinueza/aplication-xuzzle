@@ -11,7 +11,7 @@
 
 # Proyecto de una aplicación realizada con Xamarin.forms (Xuzzle)
 
-Integrantes
+Integrantes:
 - Jose Panchi
 - Joel Tates
 - Danny Vinueza
