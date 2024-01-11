@@ -273,38 +273,18 @@
           "Xamarin.Android.Support.v7.MediaRouter": "25.4.0.2"
         },
         "compile": {
-          "lib/MonoAndroid10/FormsViewGroup.dll": {
-            "related": ".pdb"
-          },
-          "lib/MonoAndroid10/Xamarin.Forms.Core.dll": {
-            "related": ".pdb;.xml"
-          },
-          "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll": {
-            "related": ".pdb"
-          },
-          "lib/MonoAndroid10/Xamarin.Forms.Platform.dll": {
-            "related": ".Android.pdb"
-          },
-          "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/MonoAndroid10/FormsViewGroup.dll": {},
+          "lib/MonoAndroid10/Xamarin.Forms.Core.dll": {},
+          "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll": {},
+          "lib/MonoAndroid10/Xamarin.Forms.Platform.dll": {},
+          "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll": {}
         },
         "runtime": {
-          "lib/MonoAndroid10/FormsViewGroup.dll": {
-            "related": ".pdb"
-          },
-          "lib/MonoAndroid10/Xamarin.Forms.Core.dll": {
-            "related": ".pdb;.xml"
-          },
-          "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll": {
-            "related": ".pdb"
-          },
-          "lib/MonoAndroid10/Xamarin.Forms.Platform.dll": {
-            "related": ".Android.pdb"
-          },
-          "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/MonoAndroid10/FormsViewGroup.dll": {},
+          "lib/MonoAndroid10/Xamarin.Forms.Core.dll": {},
+          "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll": {},
+          "lib/MonoAndroid10/Xamarin.Forms.Platform.dll": {},
+          "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll": {}
         },
         "build": {
           "build/netstandard2.0/Xamarin.Forms.props": {},
@@ -315,7 +295,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.1.0.637273"
+          "Xamarin.Forms": "5.0.0.2622"
         },
         "compile": {
           "bin/placeholder/XamagonXuzzle.dll": {}
@@ -723,26 +703,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\APLICACIONES MOVILES\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj",
       "projectName": "XamagonXuzzle.Droid",
-      "projectPath": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj",
-      "packagesPath": "C:\\Users\\APLICACIONES MOVILES\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\obj\\",
+      "projectPath": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\APLICACIONES MOVILES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
@@ -754,8 +737,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj": {
-              "projectPath": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj"
+            "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj": {
+              "projectPath": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj"
             }
           }
         }
@@ -791,5 +774,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 5.0.0.2622 a 3.1.0.637273. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n XamagonXuzzle.Droid -> XamagonXuzzle -> Xamarin.Forms (>= 5.0.0.2622) \r\n XamagonXuzzle.Droid -> Xamarin.Forms (>= 3.1.0.637273)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.1"
+      ]
+    }
+  ]
 }

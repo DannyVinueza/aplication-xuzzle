@@ -8,22 +8,59 @@
         </OnPlatform>
     </ContentPage.Padding>
 
+    <ContentPage.Resources>
+        <!-- Estilo del botón -->
+        <Style x:Key="ModernButtonStyle" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#3498db" />
+            <!-- Color de fondo -->
+            <Setter Property="TextColor" Value="White" />
+            <!-- Color del texto -->
+            <Setter Property="CornerRadius" Value="10" />
+            <!-- Bordes redondeados -->
+
+            <!-- Relleno interno -->
+        </Style>
+    </ContentPage.Resources>
+
     <ContentView SizeChanged="OnContentViewSizeChanged">
         <StackLayout x:Name="stackLayout">
-        
-            <Button Text="Randomize"
-                    Clicked="OnRandomizeButtonClicked"
-                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="CenterAndExpand" />
+            <!-- Título -->
+            <Label Text="Toca El boton para iniciar"
+               FontSize="20"
+               TextColor="#3498db"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"
+               Margin="0,0,0,20"/>
+            <!-- Ajusta el margen según tus necesidades -->
+
+            <!-- Botón -->
+          
+
+            <Frame CornerRadius="10" BorderColor="#3498db" HasShadow="True">
+                <StackLayout>
+                    <Button Text="Randomize"
+                Clicked="OnRandomizeButtonClicked"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Style="{StaticResource ModernButtonStyle}" />
+                    <Label Text="Presiona el boton para comenzar el juego"
+                           FontSize="16"
+                           TextColor="#3498db"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+            </Frame>
 
             <AbsoluteLayout x:Name="absoluteLayout"
-                            BackgroundColor="Black" />
-        
+                        BackgroundColor="Black" />
+
             <!-- Balance out layout with invisible button. -->
             <Button Text="Randomize"
-                    Opacity="0"
-                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="CenterAndExpand" />
+                Opacity="0"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand" 
+                Style="{StaticResource ModernButtonStyle}" />
         </StackLayout>
     </ContentView>
+
 </ContentPage>

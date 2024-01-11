@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj": {}
+    "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj": {
+    "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj",
         "projectName": "XamagonXuzzle.Droid",
-        "projectPath": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj",
-        "packagesPath": "C:\\Users\\APLICACIONES MOVILES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\XamagonXuzzle.Droid.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle.Droid\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\APLICACIONES MOVILES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid81"
@@ -32,8 +34,8 @@
         "frameworks": {
           "monoandroid81": {
             "projectReferences": {
-              "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj": {
-                "projectPath": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj"
+              "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj": {
+                "projectPath": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj"
               }
             }
           }
@@ -70,29 +72,30 @@
         }
       }
     },
-    "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj": {
+    "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj",
         "projectName": "XamagonXuzzle",
-        "projectPath": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj",
-        "packagesPath": "C:\\Users\\APLICACIONES MOVILES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\APLICACIONES MOVILES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -119,7 +122,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.1.0.637273, )"
+              "version": "[5.0.0.2622, )"
             }
           },
           "imports": [
@@ -128,12 +131,11 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

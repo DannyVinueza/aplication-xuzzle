@@ -1,10 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "l4CBEwB2Clj1a4WCpvDQmM3MkW5Izrz91jPn5hBY3wk54nwMrpxt3IDSNIVFMue4pHAUsAgwVmhKkPJgLdVf5Q==",
+  "dgSpecHash": "bPCAFEU3lOnWp8ycrCQzmoKfnqRuSXqK4G/qccKzxvghNplZWO5z0EMB5D47ddk1NbtDJTIesyPcCjCTQFnv7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\APLICACIONES MOVILES\\Desktop\\xamari\\XamagonXuzzle\\XamagonXuzzle\\XamagonXuzzle.iOS\\XamagonXuzzle.iOS.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\aplication-xuzzle\\XamagonXuzzle\\XamagonXuzzle.iOS\\XamagonXuzzle.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\APLICACIONES MOVILES\\.nuget\\packages\\xamarin.forms\\3.1.0.637273\\xamarin.forms.3.1.0.637273.nupkg.sha512"
+    "C:\\Users\\gabri\\.nuget\\packages\\xamarin.forms\\3.1.0.637273\\xamarin.forms.3.1.0.637273.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 5.0.0.2622 a 3.1.0.637273. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n XamagonXuzzle.iOS -> XamagonXuzzle -> Xamarin.Forms (>= 5.0.0.2622) \r\n XamagonXuzzle.iOS -> Xamarin.Forms (>= 3.1.0.637273)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }
